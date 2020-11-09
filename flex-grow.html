@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="flex-grow.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/flex-grow.css">
 </head>
+
 <body>
-    <div class="title">flex-grow</div>
+    <div id="header">
+        <ul class="navbar">
+            <li class="navbar-item">
+                <a href="flex-wrap.html">flex-wrap</a>
+            </li>
+            <li class="navbar-item active">
+                <a href="flex-grow.html">flex-grow</a>
+            </li>
+            <li class="navbar-item">
+                <a href="order.html">order</a>
+            </li>
+        </ul>
+    </div>
     <div class="container">
-        <div class="item grow-1">flex-grow: 1;</div>
-        <div class="item grow-2">flex-grow: 3;</div>
-        <div class="item grow-1">flex-grow: 1;</div>
-        <div class="item grow-1">flex-grow: 1;</div>
+        <div class="title">flex-grow</div>
+        <div class="flex-container">
+            <div class="item grow-1">flex-grow: 1;</div>
+            <div class="item grow-2">flex-grow: 3;</div>
+            <div class="item grow-1">flex-grow: 1;</div>
+            <div class="item grow-1">flex-grow: 1;</div>
+        </div>
     </div>
 </body>
+
 </html>

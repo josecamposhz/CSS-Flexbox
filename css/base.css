@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #003a6c;
+  --white-color: #fafafa;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+    padding: 1rem;
+}
+
+#header {
+  background-color: var(--primary-color);
+}
+
+.navbar {
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+
+.navbar-item {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+}
+
+.navbar-item a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.navbar-item.active {
+  color: var(--white-color);
+  background-color: #002e56;
+}

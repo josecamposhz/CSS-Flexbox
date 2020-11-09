@@ -1,10 +1,4 @@
-body {
-    color: #fff;
-    background-color: #000;
-    padding: 1rem;
-}
-
-.container {
+.flex-container {
     display: flex;
     gap: 20px;
 }
