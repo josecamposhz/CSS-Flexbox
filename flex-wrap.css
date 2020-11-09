@@ -1,0 +1,41 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nowrap {
+  /* Valor por defecto */
+  flex-wrap: nowrap;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.wrap .flex-item {
+  background: gold;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.wrap-reverse .flex-item {
+  background: deepskyblue;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: tomato;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  color: white;
+  font-size: 3em;
+}
+
+.title {
+  text-align: center;
+}
